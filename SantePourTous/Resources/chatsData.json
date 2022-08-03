@@ -1,0 +1,91 @@
+[
+    {
+        "id": 5001,
+        "content": "Bonjour, comment tu vas",
+        "heure": "10:05",
+        "onLine":true,
+        "user": {
+            "id":1001,
+            "name":"Saidou",
+            "avatar": "docteur1"
+        }
+    },
+    {
+        "id": 5002,
+        "content": "Bonjour, je vais bien merci",
+        "heure": "12:10",
+        "onLine":true,
+        "user": {
+            "id":1002,
+            "name":"Zaid",
+            "avatar": "2"
+        }
+    },
+    {
+        "id": 5003,
+        "content": "Bonjour, puis-je avoir un conseil",
+        "heure": "13:40",
+        "onLine":true,
+        "user": {
+            "id":1003,
+            "name":"Awa Diop",
+            "avatar": "f3"
+        }
+    },
+    {
+        "id": 5004,
+        "content": "Bonjour, puis-je avoir de l'aider",
+        "heure": "14:00",
+        "onLine":false,
+        "user": {
+            "id":1004,
+            "name":"Salamata",
+            "avatar": "femme1"
+        }
+    },
+    {
+        "id": 5005,
+        "content": "Bonjour, comment tu vas",
+        "heure": "28 juin",
+        "onLine":false,
+        "user": {
+            "id":1005,
+            "name":"Aida Hamada",
+            "avatar": "aida"
+        }
+    },
+    {
+        "id": 5006,
+        "content": "Bonjour, avez-vous lu mon message",
+        "heure": "27 juin",
+        "onLine":false,
+        "user": {
+            "id":1006,
+            "name":"Nelson",
+            "avatar": "1"
+        }
+    },
+    {
+        "id": 5007,
+        "content": "que puis-je faire pour vous",
+        "heure": "27 juin",
+        "onLine":true,
+        "user": {
+            "id":1007,
+            "name":"Yi",
+            "avatar": "chinoise"
+        }
+    },
+    {
+        "id": 5008,
+        "content": "Bonjour, avez-vous lu mon message",
+        "heure": "27 juin",
+        "onLine":true,
+        "user": {
+            "id":1009,
+            "name":"Marel",
+            "avatar": "profile_photo"
+        }
+    }
+
+]

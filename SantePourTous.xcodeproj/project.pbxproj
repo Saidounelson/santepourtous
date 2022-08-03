@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5214193C286B0AD4002219BB /* MaladiesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214193B286B0AD4002219BB /* MaladiesItem.swift */; };
+		523D9FF12869A183008610AE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523D9FF02869A183008610AE /* ModelData.swift */; };
+		523D9FF32869A626008610AE /* Communautes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523D9FF22869A626008610AE /* Communautes.swift */; };
+		523D9FFC2869B2A8008610AE /* MaladieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523D9FFB2869B2A8008610AE /* MaladieRow.swift */; };
+		523D9FFE2869F736008610AE /* maladieData.json in Resources */ = {isa = PBXBuildFile; fileRef = 523D9FFD2869F736008610AE /* maladieData.json */; };
+		524BF2912871033600892BCD /* OrgasmesDetailsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524BF2902871033600892BCD /* OrgasmesDetailsRow.swift */; };
+		524BF293287206B100892BCD /* ProfilModification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524BF292287206B100892BCD /* ProfilModification.swift */; };
+		524BF2992872C82D00892BCD /* Forums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524BF2982872C82D00892BCD /* Forums.swift */; };
+		524BF29D2872C8CB00892BCD /* forumsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 524BF29C2872C8CB00892BCD /* forumsData.json */; };
+		52968E5A286B26C400D0DEDC /* ChatsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52968E59286B26C400D0DEDC /* ChatsHome.swift */; };
+		52968E60286B7BFF00D0DEDC /* ChatsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52968E5F286B7BFF00D0DEDC /* ChatsRow.swift */; };
+		52968E64286BC4A100D0DEDC /* chatsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 52968E63286BC4A100D0DEDC /* chatsData.json */; };
+		52968E66286BCAF900D0DEDC /* ChatsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52968E65286BCAF900D0DEDC /* ChatsItem.swift */; };
+		52B82084286C3BB00009CE13 /* OrganismRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B82083286C3BB00009CE13 /* OrganismRow.swift */; };
+		52B82086286C3C1B0009CE13 /* organismData.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B82085286C3C1B0009CE13 /* organismData.json */; };
+		52C6613A2870BC8300CF067A /* OranismesMapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C661392870BC8300CF067A /* OranismesMapItem.swift */; };
+		52D51985286D2E7A005D51C9 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D51984286D2E7A005D51C9 /* BotResponse.swift */; };
+		52D51987286DA968005D51C9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D51986286DA968005D51C9 /* Utilities.swift */; };
+		52D51993286EEC99005D51C9 /* communautesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 52D51992286EEC99005D51C9 /* communautesData.json */; };
+		52D51995286EF052005D51C9 /* CommunautesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D51994286EF052005D51C9 /* CommunautesRow.swift */; };
+		52D51997286EF065005D51C9 /* CommunautesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D51996286EF065005D51C9 /* CommunautesItem.swift */; };
+		52D51999286EFAE2005D51C9 /* Profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D51998286EFAE2005D51C9 /* Profil.swift */; };
+		52D519A3286FADCE005D51C9 /* OrganismesMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D519A2286FADCE005D51C9 /* OrganismesMap.swift */; };
+		52D519A5286FB57A005D51C9 /* OrganismesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D519A4286FB57A005D51C9 /* OrganismesHome.swift */; };
+		52D519A7286FB5F9005D51C9 /* OrganismesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D519A6286FB5F9005D51C9 /* OrganismesList.swift */; };
+		52D519AD286FC330005D51C9 /* OrganismesListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D519AC286FC330005D51C9 /* OrganismesListItem.swift */; };
+		52EAD2D42865EB7F009A5A05 /* SantePourTousApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2D32865EB7F009A5A05 /* SantePourTousApp.swift */; };
+		52EAD2D62865EB7F009A5A05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2D52865EB7F009A5A05 /* ContentView.swift */; };
+		52EAD2D82865EB81009A5A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EAD2D72865EB81009A5A05 /* Assets.xcassets */; };
+		52EAD2DB2865EB81009A5A05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EAD2DA2865EB81009A5A05 /* Preview Assets.xcassets */; };
+		52EAD2E52865F151009A5A05 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2E42865F151009A5A05 /* Users.swift */; };
+		52EAD2E72865FA50009A5A05 /* Organisms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2E62865FA50009A5A05 /* Organisms.swift */; };
+		52EAD2E92865FC5C009A5A05 /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2E82865FC5C009A5A05 /* Chats.swift */; };
+		52EAD2EB2866004D009A5A05 /* Sickness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2EA2866004D009A5A05 /* Sickness.swift */; };
+		52EAD2ED286603B4009A5A05 /* usersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 52EAD2EC286603B4009A5A05 /* usersData.json */; };
+		52EAD2F028664341009A5A05 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2EF28664341009A5A05 /* TabBar.swift */; };
+		52EAD2F3286675AF009A5A05 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2F2286675AF009A5A05 /* Extensions.swift */; };
+		52EAD2F92866853A009A5A05 /* MaladiesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2F82866853A009A5A05 /* MaladiesHome.swift */; };
+		52EAD2FB28668649009A5A05 /* CommunautesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAD2FA28668649009A5A05 /* CommunautesHome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5214193B286B0AD4002219BB /* MaladiesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaladiesItem.swift; sourceTree = "<group>"; };
+		523D9FF02869A183008610AE /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		523D9FF22869A626008610AE /* Communautes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communautes.swift; sourceTree = "<group>"; };
+		523D9FFB2869B2A8008610AE /* MaladieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaladieRow.swift; sourceTree = "<group>"; };
+		523D9FFD2869F736008610AE /* maladieData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = maladieData.json; sourceTree = "<group>"; };
+		524BF2902871033600892BCD /* OrgasmesDetailsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgasmesDetailsRow.swift; sourceTree = "<group>"; };
+		524BF292287206B100892BCD /* ProfilModification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilModification.swift; path = ../../../../../SantePourTous/SantePourTous/Views/ProfilModification.swift; sourceTree = "<group>"; };
+		524BF2982872C82D00892BCD /* Forums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forums.swift; sourceTree = "<group>"; };
+		524BF29C2872C8CB00892BCD /* forumsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forumsData.json; sourceTree = "<group>"; };
+		52968E59286B26C400D0DEDC /* ChatsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsHome.swift; sourceTree = "<group>"; };
+		52968E5F286B7BFF00D0DEDC /* ChatsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsRow.swift; sourceTree = "<group>"; };
+		52968E63286BC4A100D0DEDC /* chatsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chatsData.json; sourceTree = "<group>"; };
+		52968E65286BCAF900D0DEDC /* ChatsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsItem.swift; sourceTree = "<group>"; };
+		52B82083286C3BB00009CE13 /* OrganismRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganismRow.swift; sourceTree = "<group>"; };
+		52B82085286C3C1B0009CE13 /* organismData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = organismData.json; sourceTree = "<group>"; };
+		52C661392870BC8300CF067A /* OranismesMapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OranismesMapItem.swift; sourceTree = "<group>"; };
+		52D51984286D2E7A005D51C9 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
+		52D51986286DA968005D51C9 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		52D51992286EEC99005D51C9 /* communautesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = communautesData.json; sourceTree = "<group>"; };
+		52D51994286EF052005D51C9 /* CommunautesRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunautesRow.swift; sourceTree = "<group>"; };
+		52D51996286EF065005D51C9 /* CommunautesItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunautesItem.swift; sourceTree = "<group>"; };
+		52D51998286EFAE2005D51C9 /* Profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profil.swift; sourceTree = "<group>"; };
+		52D519A2286FADCE005D51C9 /* OrganismesMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismesMap.swift; sourceTree = "<group>"; };
+		52D519A4286FB57A005D51C9 /* OrganismesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismesHome.swift; sourceTree = "<group>"; };
+		52D519A6286FB5F9005D51C9 /* OrganismesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismesList.swift; sourceTree = "<group>"; };
+		52D519AC286FC330005D51C9 /* OrganismesListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganismesListItem.swift; sourceTree = "<group>"; };
+		52EAD2D02865EB7F009A5A05 /* Sante pour tous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sante pour tous.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EAD2D32865EB7F009A5A05 /* SantePourTousApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantePourTousApp.swift; sourceTree = "<group>"; };
+		52EAD2D52865EB7F009A5A05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52EAD2D72865EB81009A5A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EAD2DA2865EB81009A5A05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52EAD2E42865F151009A5A05 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		52EAD2E62865FA50009A5A05 /* Organisms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organisms.swift; sourceTree = "<group>"; };
+		52EAD2E82865FC5C009A5A05 /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
+		52EAD2EA2866004D009A5A05 /* Sickness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sickness.swift; sourceTree = "<group>"; };
+		52EAD2EC286603B4009A5A05 /* usersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = usersData.json; sourceTree = "<group>"; };
+		52EAD2EF28664341009A5A05 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		52EAD2F2286675AF009A5A05 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		52EAD2F82866853A009A5A05 /* MaladiesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaladiesHome.swift; sourceTree = "<group>"; };
+		52EAD2FA28668649009A5A05 /* CommunautesHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunautesHome.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EAD2CD2865EB7F009A5A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523D9FEF2869970D008610AE /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				52D51998286EFAE2005D51C9 /* Profil.swift */,
+				524BF292287206B100892BCD /* ProfilModification.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		52EAD2C72865EB7F009A5A05 = {
+			isa = PBXGroup;
+			children = (
+				52EAD2D22865EB7F009A5A05 /* SantePourTous */,
+				52EAD2D12865EB7F009A5A05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EAD2D12865EB7F009A5A05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EAD2D02865EB7F009A5A05 /* Sante pour tous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EAD2D22865EB7F009A5A05 /* SantePourTous */ = {
+			isa = PBXGroup;
+			children = (
+				52EAD2F128667586009A5A05 /* Helper */,
+				52EAD2E32865EBAD009A5A05 /* Resources */,
+				52EAD2E22865EBA4009A5A05 /* Views */,
+				52EAD2E12865EB9A009A5A05 /* Models */,
+				52EAD2D32865EB7F009A5A05 /* SantePourTousApp.swift */,
+				52EAD2D52865EB7F009A5A05 /* ContentView.swift */,
+				52EAD2D72865EB81009A5A05 /* Assets.xcassets */,
+				52EAD2D92865EB81009A5A05 /* Preview Content */,
+			);
+			path = SantePourTous;
+			sourceTree = "<group>";
+		};
+		52EAD2D92865EB81009A5A05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52EAD2DA2865EB81009A5A05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52EAD2E12865EB9A009A5A05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				523D9FF02869A183008610AE /* ModelData.swift */,
+				52EAD2E42865F151009A5A05 /* Users.swift */,
+				52EAD2E62865FA50009A5A05 /* Organisms.swift */,
+				52EAD2E82865FC5C009A5A05 /* Chats.swift */,
+				52EAD2EA2866004D009A5A05 /* Sickness.swift */,
+				523D9FF22869A626008610AE /* Communautes.swift */,
+				524BF2982872C82D00892BCD /* Forums.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52EAD2E22865EBA4009A5A05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52EAD2EF28664341009A5A05 /* TabBar.swift */,
+				523D9FEF2869970D008610AE /* Users */,
+				52EAD2F728667B75009A5A05 /* Maladies */,
+				52EAD2F628667AB4009A5A05 /* Chats */,
+				52EAD2F528667AA3009A5A05 /* Organismes */,
+				52EAD2F428667A96009A5A05 /* Communautes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52EAD2E32865EBAD009A5A05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52D51992286EEC99005D51C9 /* communautesData.json */,
+				52968E63286BC4A100D0DEDC /* chatsData.json */,
+				523D9FFD2869F736008610AE /* maladieData.json */,
+				52EAD2EC286603B4009A5A05 /* usersData.json */,
+				52B82085286C3C1B0009CE13 /* organismData.json */,
+				524BF29C2872C8CB00892BCD /* forumsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52EAD2F128667586009A5A05 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				52D51984286D2E7A005D51C9 /* BotResponse.swift */,
+				52EAD2F2286675AF009A5A05 /* Extensions.swift */,
+				52D51986286DA968005D51C9 /* Utilities.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		52EAD2F428667A96009A5A05 /* Communautes */ = {
+			isa = PBXGroup;
+			children = (
+				52EAD2FA28668649009A5A05 /* CommunautesHome.swift */,
+				52D51994286EF052005D51C9 /* CommunautesRow.swift */,
+				52D51996286EF065005D51C9 /* CommunautesItem.swift */,
+			);
+			path = Communautes;
+			sourceTree = "<group>";
+		};
+		52EAD2F528667AA3009A5A05 /* Organismes */ = {
+			isa = PBXGroup;
+			children = (
+				52B82083286C3BB00009CE13 /* OrganismRow.swift */,
+				52D519A2286FADCE005D51C9 /* OrganismesMap.swift */,
+				52D519A4286FB57A005D51C9 /* OrganismesHome.swift */,
+				52D519A6286FB5F9005D51C9 /* OrganismesList.swift */,
+				52D519AC286FC330005D51C9 /* OrganismesListItem.swift */,
+				52C661392870BC8300CF067A /* OranismesMapItem.swift */,
+				524BF2902871033600892BCD /* OrgasmesDetailsRow.swift */,
+			);
+			path = Organismes;
+			sourceTree = "<group>";
+		};
+		52EAD2F628667AB4009A5A05 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				52968E59286B26C400D0DEDC /* ChatsHome.swift */,
+				52968E5F286B7BFF00D0DEDC /* ChatsRow.swift */,
+				52968E65286BCAF900D0DEDC /* ChatsItem.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		52EAD2F728667B75009A5A05 /* Maladies */ = {
+			isa = PBXGroup;
+			children = (
+				52EAD2F82866853A009A5A05 /* MaladiesHome.swift */,
+				523D9FFB2869B2A8008610AE /* MaladieRow.swift */,
+				5214193B286B0AD4002219BB /* MaladiesItem.swift */,
+			);
+			path = Maladies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EAD2CF2865EB7F009A5A05 /* SantePourTous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EAD2DE2865EB81009A5A05 /* Build configuration list for PBXNativeTarget "SantePourTous" */;
+			buildPhases = (
+				52EAD2CC2865EB7F009A5A05 /* Sources */,
+				52EAD2CD2865EB7F009A5A05 /* Frameworks */,
+				52EAD2CE2865EB7F009A5A05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SantePourTous;
+			productName = SantePourTous;
+			productReference = 52EAD2D02865EB7F009A5A05 /* Sante pour tous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EAD2C82865EB7F009A5A05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					52EAD2CF2865EB7F009A5A05 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 52EAD2CB2865EB7F009A5A05 /* Build configuration list for PBXProject "SantePourTous" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EAD2C72865EB7F009A5A05;
+			productRefGroup = 52EAD2D12865EB7F009A5A05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EAD2CF2865EB7F009A5A05 /* SantePourTous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EAD2CE2865EB7F009A5A05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524BF29D2872C8CB00892BCD /* forumsData.json in Resources */,
+				52EAD2ED286603B4009A5A05 /* usersData.json in Resources */,
+				523D9FFE2869F736008610AE /* maladieData.json in Resources */,
+				52EAD2DB2865EB81009A5A05 /* Preview Assets.xcassets in Resources */,
+				52968E64286BC4A100D0DEDC /* chatsData.json in Resources */,
+				52EAD2D82865EB81009A5A05 /* Assets.xcassets in Resources */,
+				52D51993286EEC99005D51C9 /* communautesData.json in Resources */,
+				52B82086286C3C1B0009CE13 /* organismData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EAD2CC2865EB7F009A5A05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524BF2992872C82D00892BCD /* Forums.swift in Sources */,
+				52D51997286EF065005D51C9 /* CommunautesItem.swift in Sources */,
+				523D9FFC2869B2A8008610AE /* MaladieRow.swift in Sources */,
+				52D519A3286FADCE005D51C9 /* OrganismesMap.swift in Sources */,
+				52EAD2EB2866004D009A5A05 /* Sickness.swift in Sources */,
+				52968E5A286B26C400D0DEDC /* ChatsHome.swift in Sources */,
+				52968E60286B7BFF00D0DEDC /* ChatsRow.swift in Sources */,
+				52EAD2FB28668649009A5A05 /* CommunautesHome.swift in Sources */,
+				52EAD2F3286675AF009A5A05 /* Extensions.swift in Sources */,
+				52D51985286D2E7A005D51C9 /* BotResponse.swift in Sources */,
+				5214193C286B0AD4002219BB /* MaladiesItem.swift in Sources */,
+				524BF293287206B100892BCD /* ProfilModification.swift in Sources */,
+				52D519A7286FB5F9005D51C9 /* OrganismesList.swift in Sources */,
+				52EAD2D62865EB7F009A5A05 /* ContentView.swift in Sources */,
+				52EAD2F028664341009A5A05 /* TabBar.swift in Sources */,
+				52EAD2F92866853A009A5A05 /* MaladiesHome.swift in Sources */,
+				52D51999286EFAE2005D51C9 /* Profil.swift in Sources */,
+				52EAD2E72865FA50009A5A05 /* Organisms.swift in Sources */,
+				52EAD2E92865FC5C009A5A05 /* Chats.swift in Sources */,
+				52C6613A2870BC8300CF067A /* OranismesMapItem.swift in Sources */,
+				52EAD2D42865EB7F009A5A05 /* SantePourTousApp.swift in Sources */,
+				523D9FF32869A626008610AE /* Communautes.swift in Sources */,
+				52B82084286C3BB00009CE13 /* OrganismRow.swift in Sources */,
+				52D51995286EF052005D51C9 /* CommunautesRow.swift in Sources */,
+				52D519AD286FC330005D51C9 /* OrganismesListItem.swift in Sources */,
+				52968E66286BCAF900D0DEDC /* ChatsItem.swift in Sources */,
+				52D519A5286FB57A005D51C9 /* OrganismesHome.swift in Sources */,
+				52EAD2E52865F151009A5A05 /* Users.swift in Sources */,
+				52D51987286DA968005D51C9 /* Utilities.swift in Sources */,
+				523D9FF12869A183008610AE /* ModelData.swift in Sources */,
+				524BF2912871033600892BCD /* OrgasmesDetailsRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52EAD2DC2865EB81009A5A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52EAD2DD2865EB81009A5A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EAD2DF2865EB81009A5A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SantePourTous/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GRS39V655;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sante.com.SantePourTous;
+				PRODUCT_NAME = "Sante pour tous";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52EAD2E02865EB81009A5A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SantePourTous/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GRS39V655;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sante.com.SantePourTous;
+				PRODUCT_NAME = "Sante pour tous";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EAD2CB2865EB7F009A5A05 /* Build configuration list for PBXProject "SantePourTous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EAD2DC2865EB81009A5A05 /* Debug */,
+				52EAD2DD2865EB81009A5A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EAD2DE2865EB81009A5A05 /* Build configuration list for PBXNativeTarget "SantePourTous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EAD2DF2865EB81009A5A05 /* Debug */,
+				52EAD2E02865EB81009A5A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EAD2C82865EB7F009A5A05 /* Project object */;
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "id": 3001,
+        "name": "Cara Santé Belsunce",
+        "phone": "+33491919115",
+        "email": "belsunce@gmail.com",
+        "adress": "32 Cr Belsunce",
+        "description": "Cara Santé « Canebière », centre de santé généraliste et pluridisciplinaire (dentaire, ophtalmologie, orthoptie, dermatologie) et comportant un Pôle",
+        "picture": "Belsunce",
+        "icon":"staroflife"
+    },
+    {
+        "id": 3002,
+        "name": "Centre Azuréen",
+        "phone": "+33491223333",
+        "email": "centre-azureen@gmail.com",
+        "adress": "232 Bd de Sainte-Marguerite",
+        "description": "L'Institut Paoli-Calmettes est un des 18 centres régionaux de lutte contre le cancer de France, et il se situe à Marseille depuis 1923.",
+        "picture": "Azureen",
+        "icon":"staroflife"
+        
+    },
+    {
+        "id": 3003,
+        "name": "APF France handicap",
+        "phone": "+33491223333",
+        "email": "apf-france@gmail.com",
+        "adress": "279 Av. de la Capelette",
+        "description": "APF France handicap, anciennement appelé Association des paralysés de France, est créée en 1933 par quatre jeunes atteints de poliomyélite.",
+        "picture": "apf",
+        "icon":"brain"
+    },
+    {
+        "id": 3004,
+        "name": "Pharmacie du Vieux Port",
+        "phone": "+33491900057",
+        "email": "pharmacie-vieux@gmail.com",
+        "adress": "4 Quai du Port",
+        "description": "Présentation. Bienvenue dans votre PHARMACIE DU VIEUX PORT adhérente à l'Union de Professionnels de la Pharmacie (UPP). Le pharmacien et son équipe vous.",
+        "picture": "348s",
+        "icon":"cross"
+    },
+    {
+        "id": 3005,
+        "name": "Pharmacie",
+        "phone": "+3370998073",
+        "email": "centreazure@contre.com",
+        "adress": "Marseille",
+        "description": "Suscipit inceptos  varius integer.",
+        "picture": "turtlerock",
+        "icon":"cross"
+    },
+    {
+        "id": 3006,
+        "name": "Pharmacie",
+        "phone": "070998073",
+        "email": "centreazure@contre.com",
+        "adress": "California",
+        "description": "Suscipit inceptos  varius integer Suscipit inceptos  varius integer.",
+        "picture": "turtlerock",
+        "icon":"cross"
+    }
+]

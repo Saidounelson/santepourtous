@@ -1,0 +1,44 @@
+[
+    {
+        "id": 2001,
+        "name": "Cardiologies",
+        "icone": "c.square",
+        "picture": "cardiologie",
+        "description": "La cardiologie est une branche de la médecine qui traite des troubles du cœur ainsi que de certaines parties du système circulatoire."
+    },
+    {
+        "id": 2002,
+        "name": "Dermatologie",
+        "icone": "d.square",
+        "picture": "Dermatologie",
+        "description": "La dermatologie est une spécialité de médecine qui s'occupe de la peau, des muqueuses et des phanères (ongles, cheveux, poils) ,. Elle est associée à la ..."
+    },
+    {
+        "id": 2003,
+        "name": "Endocrinologie",
+        "icone": "e.square",
+        "picture": "endocrinologie",
+        "description": "L'endocrinologie est une discipline de la médecine qui étudie les hormones. Son nom signifie : l'étude de la sécrétion interne."
+    },
+    {
+        "id": 2004,
+        "name": "Gynécologie",
+        "icone": "g.square",
+        "picture": "gynecologie",
+        "description": "a gynécologie est une spécialité médico-chirurgicale qui s'occupe de la physiologie et des maladies de l'appareil génital féminin."
+    },
+    {
+        "id": 2005,
+        "name": "Oncologie",
+        "icone": "o.square",
+        "picture": "test",
+        "description": "L'oncologie, ou carcinologie, ou cancérologie, est la spécialité médicale d'étude, de diagnostic et de traitement des cancers."
+    },
+    {
+        "id": 2006,
+        "name": "Ophtalmologie",
+        "icone": "o.square",
+        "picture": "test",
+        "description": "L’ophtalmologie est la branche de la médecine chargée du traitement des maladies de l’œil et de ses annexes."
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "id": 6001,
+        "nameGoup": "Bien être",
+        "icone": "",
+        "title": "Ensemble",
+        "comment":"Depuis le 24 janvier, le pass vaccinal remplace le pass sanitaire et devient obligatoire pour les plus ...",
+        "picture":"bienetre", 
+        "user": {
+            "id": 1001,
+            "name": "Ziad",
+            "avatar":"Zaid"
+        }
+        
+    },
+    {
+        "id": 6002,
+        "nameGoup": "Mental",
+        "icone": "Twentynine Palms",
+        "title": "Santé",
+        "comment":"Depuis le 24 janvier, le pass vaccinal remplace le pass sanitaire et devient obligatoire pour les plus ...",
+        "picture":"Mental",
+        "user": {
+            "id": 1002,
+            "name": "Awa",
+            "avatar":"f3"
+        }
+    },
+    {
+        "id": 6003,
+        "nameGoup": "Weekend",
+        "icone": "",
+        "title": "Sortie en Weekend",
+        "comment":"Doly",
+        "picture":"sortie",
+        "user": {
+            "id": 1003,
+            "name": "Yi",
+            "avatar":"chinoise"
+        }
+    },
+    {
+        "id": 6004,
+        "nameGoup": "Obésité",
+        "icone": "Twentynine Palms",
+        "title": "Surpoids",
+        "comment":"Doly",
+        "picture":"obésité",
+        "user": {
+            "id": 1004,
+            "name": "Diego",
+            "avatar":"Diego"
+        }
+    },
+    {
+        "id": 6005,
+        "nameGoup": "Cellules anormales",
+        "icone": "Twentynine Palms",
+        "title": "Cancer",
+        "comment":"Doly",
+        "picture":"Cancer",
+        "user": {
+            "id": 1005,
+            "name": "Aicha",
+            "avatar":"aicha"
+        }
+    },
+    {
+        "id": 6006,
+        "nameGoup": "Conseil",
+        "icone": "Twentynine Palms",
+        "title": "La vie",
+        "comment":"Laissez votre grandeur prendre sa place",
+        "picture":"conseil",
+        "user": {
+            "id": 1006,
+            "name": "Yazid",
+            "avatar":"docteur1"
+        }
+    },
+    ]
